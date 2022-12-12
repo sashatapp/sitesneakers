@@ -1,0 +1,81 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial Rounded MT Bold;
+    height: 100vh;
+    background-image: url('../images/FEc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+.container-first {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 110px;
+    color: purple;
+	margin-left: auto;
+    margin-right: auto;
+    font-family: Arial Rounded MT Bold;
+}
+h1 span {
+    position: relative;
+	text-align: center;
+}
+.container-btns {
+    position: relative;
+    top: 50px;
+}
+.btn-first {
+    border: 5px solid black;
+    outline: none;
+    background: transparent;
+    font-size: 40px;
+    padding: 20px;
+    width: 300px;
+    color: purple;
+    cursor: pointer;
+}
+.btn-first:nth-child(1){
+    margin-right: 30px;
+}
+.btn-first:hover {
+    transition: all 0.3s ease-in-out;
+    background: black;
+    color: #333;
+}
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+.logo-medias {
+    width: 40px;
+    height: 40px;
+}

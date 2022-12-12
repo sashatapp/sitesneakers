@@ -1,0 +1,29 @@
+h1 {
+	text-align: justify;
+	text-align-last: center;
+	color: red;
+	font-size: 50px;
+}
+h2 {
+	text-align: justify;
+	text-align-last: center;
+	color: green;
+	font-size: 30px;
+}
+p {
+	margin-top: 30px;
+	margin-left: 50px;
+	font-size: 20px;
+	text-align: justify;
+}
+h3 {
+	text-align: center;
+}
+h4 {
+	box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5);
+	background-color: purple;
+	color: white;
+}
+h1,h2,p,h4 {
+	font-family: Arial Rounded MT Bold;
+}

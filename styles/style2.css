@@ -1,0 +1,27 @@
+h1 {
+	text-align: justify;
+	text-align-last: center;
+	color: red;
+	font-size: 50px;
+}
+img {
+	float: right;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+	margin-right: 50px;
+	margin-left: 50px;
+	height: auto;
+	display: block;
+	width: 250px;
+	height: 300px;
+}
+p {
+	margin-left: 50px;
+	margin-top: 30px;
+	text-align: justify;
+}
+ul,li {
+	margin-left: 5px;
+}
+h1,h2,padding {
+	font-family: Arial Rounded MT Bold;
+}
